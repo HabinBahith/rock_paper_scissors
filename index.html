@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <div class="heading">Rock Paper Scissor</div>
+        <div class="images">
+            <div>
+                <img id="myImage1" src="images/files/paperleft.jpg" alt="Dynamic Display" width="300" style="border-radius: 20px; border: 10px solid rgb(63, 137, 166);">
+                <p>you</p>
+            </div>
+            <div>
+                <img id="myImage2" src="images/files/paperright.jpg" alt="Dynamic Display" width="300" style="border-radius: 20px; border: 10px solid rgb(63, 137, 166)" >
+                <p>computer</p>
+            </div>
+        </div>
+        <div id="score">
+            Player: 0 | Computer: 0
+        </div>
+        <div class="status">
+            <div id="result">Choose Rock, Paper, or Scissors!</div>
+            <div id="gameWinner"></div>
+        </div>
+        <div class="choice">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissor">Scissor</button>
+        </div>
+        <div style="align-self: flex-end;">
+            <button id="reset">Reset</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
